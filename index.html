@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb's Portfolio</title>
+    <style>
+        body {
+            background-color: #f1c5eb;
+        }
+        .card {
+            color: #333;
+            text-align: center;
+            background: #ffd7ed; /* soft pink */
+            max-width: 720px;
+            width: calc(100% - 40px);
+            margin: 40px auto;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+
+        .card h1 {
+            margin: 0;
+            padding: 20px 24px 12px;
+        }
+
+        .card p {
+            margin: 0;
+            padding: 12px 24px 20px;
+        }
+         
+        p{
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            color: #333;
+        }
+
+
+
+
+        </style>
+    </head>
+    <body>
+        
+        <div class="card">
+        <h1>Welcome to Caleb's Portfolio</h1>
+        <p>This is a showcase of my work and my personal best projects.</p>
+        </div>
+        
+            <style>
+            .image-box {
+                width: 320px;
+                height: 220px;
+                margin: 20px auto;
+                border-radius: 12px;
+                overflow: hidden;
+                box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+                border: 1px solid rgba(0,0,0,0.06);
+                background: #fff;
+                transition: transform 300ms ease, box-shadow 300ms ease;
+                transform-style: preserve-3d;
+                animation: floaty 6s ease-in-out infinite;
+            }
+            .image-box img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+                transform-origin: center;
+                transition: transform 400ms ease;
+            }
+            .image-box:hover {
+                transform: translateY(-8px) scale(1.02);
+                box-shadow: 0 18px 40px rgba(0,0,0,0.18);
+            }
+            .image-box:hover img {
+                transform: scale(1.06);
+            }
+            @keyframes floaty {
+                0% { transform: translateY(0); }
+                50% { transform: translateY(-6px); }
+                100% { transform: translateY(0); }
+            }
+            </style>
+
+            <a href="Magazine.html" aria-label="Open Magazine">
+                <div class="image-box" aria-label="Project preview">
+                    <img src="CalebTineoFinalEditionMMA100TermProject.png" alt="Page1">
+                </div>
+            </a>
+                                <p> WWE Magazine: The Icons Of the Ring</p>
+
+
+                <a href="Midterm.html" aria-label="Open Midterm Project">
+                <div class="image-box" aria-label="Midterm Project preview">
+                    <img src="CalebTineoMidtermProjectaiFinalEdition.png" alt="Midterm Project">
+                </div>
+            </a>    
+                                <p> Midterm Project: Surreal Portrait</p>
+
+</body>
+</html>
